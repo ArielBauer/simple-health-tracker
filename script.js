@@ -11,7 +11,7 @@ btn.addEventListener('click', function() {
         const bmi = weight / (height * height);
 
         
-        document.getElementById('bmi-value').innerText = bmi.toFixed(2);
+        document.getElementById('bmi-value').innerText = `${bmi.toFixed(2)}`;
     } else {
         alert("Please fill in all fields!");
     };
