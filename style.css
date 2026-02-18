@@ -12,7 +12,7 @@ body {
     width: 300px;
 }
 
-/* ERRO 6: Seletor errado (usando id como classe) */
+
 .btn-calc {
     background-color: #28a745;
     color: white;
@@ -20,7 +20,7 @@ body {
     width: 100%;
 }
 
-/* ERRO 7: Falta ponto e vírgula no final da propriedade */
+
 #result {
     margin-top: 20px
     font-weight: bold;
